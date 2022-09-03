@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amatic SC', cursive;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: olivedrab;
+}
+
+section h1{
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-shadow: 5px 2px 2px royalblue;
+    animation: zoom 1s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes zoom {
+    from{transform: translateX(-25px); }
+    to{transform: translateX(25px); }
+}
+
+.centerDiv{
+    width : 500px;
+    height: 400px;
+    background-color: springgreen;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 20px 20px 22px black;
+}
+
+.insertBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+}
+
+
+.box #v1 #v2 {
+    text-align: center;
+    width: 15px;
+    font-size: 1.8rem;
+    height: 50px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.box1 p{
+    font-size: 40px;
+    margin: 0 10px 2px 10px;
+}
+
+.middleBox #answer{
+margin: 0px 200px 50px 200px;
+padding: 5px 0px;
+font-size: 30px;
+text-align: center;
+width:85px;
+height: 20px;
+}
+
+.sentBox button{
+padding: 10x 20px;
+font-size: 1.1rem;
+text-transform: uppercase;
+color: rgb(251, 247, 247);
+border: none;
+background-color: chocolate;
+border-bottom-left-radius: 35px;
+border-bottom-right-radius: 35px; 
+width: 150px;
+height: 25px;
+margin: 0px 160px 0px 170px;
+}
